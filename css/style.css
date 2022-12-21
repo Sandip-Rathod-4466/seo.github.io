@@ -1,0 +1,195 @@
+@import url(../css/fonts.css);
+
+    /* font-family: Poppins; */
+    /* font-family: Roboto; */
+    /* font-family: oswald; */
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background:url('/images/page-background.jpg');
+    background-position: center center;
+    background-size: cover;
+    overflow-x: hidden;
+    font-family: Poppins;
+}
+::-webkit-scrollbar{
+    width:0.625rem;
+  }
+  ::-webkit-scrollbar-track{
+    background:white;
+  }
+  ::-webkit-scrollbar-thumb{
+    background:#FF9F29;
+  }
+
+
+a{
+    text-decoration: none;
+    color: #1F4690    !important;
+    font-weight: 700;
+    transition: 0.2s ease-in;
+}
+a:hover{
+    color: #FF9F29 !important;
+}
+
+.main-btn{
+    display: inline-block;
+    padding: 10px 24px !important;
+    color: white !important;
+    font-weight: 700;
+    background-color: #FF9F29   ;
+    border-radius: 28px;
+    text-transform: capitalize !important;
+    border: none;
+    transition: all 0.2s ease-in;
+}
+.main-btn:hover{
+    background-color: #1F4690;
+    color: white !important;
+}
+
+h1{
+    font-size: 60px;
+    color: #1F4690;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+h2{
+    font-size: 30px;
+    color: #1F4690;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+    color: #1F4690;
+    font-weight: 700;
+}
+p{
+    font-size: 17px;
+    color: gray;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+.navbar .navbar-brand img{
+    width: 150px;
+}
+.navbar .nav-item{
+    margin: 0 10px;
+    text-align: center;
+}
+.navbar .nav-item .nav-link{
+    text-transform: uppercase;
+    margin: 0;
+}
+.navbar-styky{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;    
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.top_banner{
+    padding-top: 10%;
+}
+.top_banner .row{
+    align-items: center;
+}
+
+/* About section */
+#about{
+    padding-top: 100px;
+}
+#about .box{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#about .box .card_title h4{
+    text-transform: capitalize;    
+    margin: 25px 0;
+    font-weight: 700;
+    color: #1F4690;
+}
+#about .box .card_details p{
+    text-align: justify;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+/* Service section */
+.services_wrapper{
+    padding-top: 100px;
+}
+.services .services_details{
+    margin-top: 50px;
+}
+.services .sercices_image img{
+    display: block;
+    margin: auto;
+}
+.services .services_details span{
+    color: #FF9F29;
+}
+
+/* blog section */
+.blog_wrapper{
+    padding-top: 100px;
+}
+.blog-bg{
+    background-color: #1F4690;
+    padding: 30px 0;
+    text-align: center;
+}
+.blog h2{
+    color: white;
+    margin-bottom: 20px;
+}
+.blog  input{
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin-left: 40px;
+    border-radius: 24px;
+
+}
+.blog input:focus{
+    outline: none;
+}
+#blog .blog_post{
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blog_post h3{
+    margin-top: 10px;
+}
+.blog_post p{
+    margin: 0;
+}
+
+/* contact section */
+
+.contact_wrapper{
+    padding-top: 100px;
+}
+
+.contact_form input,textarea{
+    border-radius: 23px;
+}
